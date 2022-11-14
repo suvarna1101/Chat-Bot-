@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=""UTF-8"/>
+        <meta http-equiv="X-UA_Compatible" content="IE=edge">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0" />
+        <title>Chat Bot</title>
+        <link rel="stylesheet" href="style.css"> 
+
+    </head>
+    <body>
+        
+        <div class="glass">
+            
+            <h1>Ask Your Question?</h1>
+            <h2>Yeah, ask some question</h2>
+            <div class="input">
+                <input
+                    type="text"
+                    id="userBox"
+                    onkeydown="if(event.keyCode ==13){ talk()}"
+                    placeholder="Type here.."
+                    
+                                      
+                 />
+                
+            </div>
+             <p id="chatLog">Answer is here...</p>
+             <img src="https://www.mantralabsglobal.com/wp-content/themes/spiral-child/images/chatbot/chat_bot_img.png" height="100px" width="100px" >
+    
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
